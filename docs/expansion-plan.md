@@ -18,15 +18,18 @@ Market analysis found the real edge is: screen-printed ink is chemically bonded 
 
 *Exit condition*: at least 2–3 real "in service" photos and one client testimonial on the site.
 
-## Phase 2 — DACH market push
+## Phase 2 — CZ/AT/DE market push
 
-ADR is EU-wide and the hazard symbols are standardized, so German/Austrian demand is real, not aspirational (this is *why* the /de/ site exists). Once Phase 1's proof points exist to translate:
+ADR is EU-wide and the hazard symbols are standardized, so Czech/Austrian/German demand is real, not aspirational (this is *why* the /de/ site exists, and why CZ is worth a Slovak-adjacent push even without its own site language — a Czech buyer reads Slovak fine). A country-by-country competitor pass (see market-analysis.md §2.1–2.4) found something worth acting on: **nobody in SK, CZ, or AT has publicly claimed the "durable, screen-printed, direct-onto-metal ADR label" positioning** — the only real precedent anywhere is **DN Sign in Germany**, who lead with an explicit screen-printing + temperature-resistance (-40°C to +120°C) durability claim. That's validation the message works, and a concrete template for how to phrase it — a temperature spec reads more credible on the site than "resistant to weather."
+
+Once Phase 1's proof points exist to translate:
 
 - Confirm the /de/ content is genuinely complete (not thin), matching the sk depth — already a requirement from the build, but worth re-auditing once Phase 1 content lands.
-- Identify a handful of German/Austrian logistics or chemical-transport trade directories/associations to be listed in (low-cost, high-relevance backlinks and direct discovery).
-- Consider whether German-language customer support (phone/email) capacity exists before pushing this hard — a DE-language site attracting DE-language inquiries that can't be answered in German risks a bad first impression.
+- Borrow DN Sign's concrete-durability-spec approach: get an actual temperature/chemical-resistance number for Siebi's two-component inks (ask the supplier for a datasheet) rather than only qualitative "odolné" language — a number is more persuasive and more GEO/AI-citable.
+- Identify a handful of Czech/German/Austrian logistics or chemical-transport trade directories/associations to be listed in (low-cost, high-relevance backlinks and direct discovery) — ČESMAD BOHEMIA's webshop model (trade association selling ADR supplies to its own membership) is worth understanding as a potential distribution/referral partner in CZ, not just a competitor.
+- Consider whether German-language customer support (phone/email) capacity exists before pushing DE/AT hard — a DE-language site attracting DE-language inquiries that can't be answered in German risks a bad first impression. CZ is lower-risk to push first since Slovak/Czech mutual intelligibility means the existing sk content already mostly works.
 
-*Exit condition*: first inbound inquiry from a DE/AT prospect, handled successfully.
+*Exit condition*: first inbound inquiry from a CZ/DE/AT prospect, handled successfully.
 
 ## Phase 3 — Validate the battery/waste-recycling segment
 
