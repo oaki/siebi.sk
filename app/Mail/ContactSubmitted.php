@@ -23,6 +23,7 @@ class ContactSubmitted extends Mailable
         return new Envelope(
             subject: '[siebi.sk] Nová správa z kontaktného formulára — '.$this->data['name'],
             replyTo: [$this->data['email']],
+            bcc: array_filter([config('mail.contact_bcc')]),
         );
     }
 

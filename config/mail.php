@@ -116,5 +116,6 @@ return [
     ],
 
     'contact_to' => env('CONTACT_TO_ADDRESS', env('MAIL_FROM_ADDRESS')),
+    'contact_bcc' => env('CONTACT_BCC_ADDRESS'),
 
 ];
