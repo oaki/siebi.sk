@@ -1,0 +1,42 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+/*
+ * Siebi design system tokens.
+ * Brand navy sampled from the historical SIEBI wordmark; accent is a warm
+ * safety-orange, a deliberate nod to ADR hazard-label colors without
+ * literally reusing them.
+ */
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+
+    --color-brand-950: #0b1f4d;
+    --color-brand-900: #102a63;
+    --color-brand-800: #163578;
+    --color-brand-700: #173b87;
+    --color-brand-600: #1e4aa3;
+    --color-brand-500: #2c5bc7;
+    --color-brand-400: #5b81d6;
+    --color-brand-300: #93aee6;
+    --color-brand-100: #dfe7f7;
+    --color-brand-50: #f2f5fc;
+
+    --color-accent-700: #a83f14;
+    --color-accent-600: #c94c18;
+    --color-accent-500: #e0651b;
+    --color-accent-400: #ec8143;
+    --color-accent-100: #fbe3d2;
+}
+
+@layer base {
+    body {
+        @apply bg-white text-brand-950 antialiased;
+    }
+
+    h1, h2, h3, h4 {
+        @apply text-balance;
+    }
+}

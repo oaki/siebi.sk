@@ -1,0 +1,3 @@
+# Laravel over plain PHP
+
+We initially planned plain, dependency-free PHP 8.3 so the site would run on any shared host with zero setup. Once the deployment target was confirmed as a self-managed DigitalOcean droplet (not shared hosting), that constraint no longer applied — Composer and writable storage directories are fine on infrastructure we fully control. We chose Laravel instead: Blade templating and route-group-based localization fit the sk/en/de structure well, and it gives the design system (reusable components + tokens) a natural home. Trade-off accepted: the site now depends on Composer and a PHP-FPM setup with Laravel's runtime requirements (writable `storage/`/`bootstrap/cache`, `.env` config) rather than being a drop-anywhere static PHP folder.
